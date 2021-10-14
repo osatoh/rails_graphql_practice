@@ -1,4 +1,4 @@
-class RailsGraphqlTemplateSchema < GraphQL::Schema
+class RailsGraphqlSchema < GraphQL::Schema
   mutation(Types::MutationType)
   query(Types::QueryType)
 
